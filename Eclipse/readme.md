@@ -7,6 +7,21 @@
 #### Perspectives
 ![](images/eclipse_perspective_menu.png)
 
+#### Compare/Replace Menu
+![](images/eclipse_compare_contextmenu.png)
+
+#### Team/SVN Menu
+![](images/eclipse_svn_contextmenu.png)
+
+#### Project Setting
+![](images/eclipse_project_setting.png)
+
+#### Project Setting - Java Build Path
+![](images/eclipse_project_javaBuildPath.png)
+
+#### Search
+![](images/eclipse_search.png)
+
 # Eclipse Preference #
 
 #### Fonts and Colors
@@ -43,7 +58,7 @@
 ![](images/java_templates_setting.png)
 
 
-# Common Shortcuts #
+# Common Command Keys / Shortcuts #
 
 #### Navigation ####
 ```
@@ -70,34 +85,4 @@
 	alt+up (*ctrl+up)      : Move Lines Up
 	ctrl+backspace         : Delete Previous Word
 ```
-### The plugins I am using ###
-* http://download.eclipse.org/technology/m2e/releases/
 
-* http://marketplace.eclipse.org/content/instasearch
-* http://marketplace.eclipse.org/content/path-tools
-* http://marketplace.eclipse.org/content/glance
-* http://marketplace.eclipse.org/content/java-source-attacher
-* http://marketplace.eclipse.org/content/moreunit
-* http://marketplace.eclipse.org/content/command-key-binding-cross-reference
-* http://marketplace.eclipse.org/content/properties-editor
-* http://marketplace.eclipse.org/content/grep-console
-
-* http://marketplace.eclipse.org/content/jeeeyuls-eclipse-themes
-* http://marketplace.eclipse.org/content/eclipse-color-theme
-
-#### [Plugin] InstaSearch
-InstaSearch will build indexes for your workspace projects, and quick search/fuzzy find your files. http://marketplace.eclipse.org/content/instasearch
-![](images/plugin_InstaSearch.png)
-
-#### [Plugin] Glance
-http://marketplace.eclipse.org/content/glance
-![](images/plugin_Glance.png)
-
-#### [Plugin] Path Tools
-http://marketplace.eclipse.org/content/path-tools
-![](images/plugin_PathTools_toolbar.png)
-![](images/plugin_PathTools.png)
-
-#### [Plugin] Grep Console
-http://marketplace.eclipse.org/content/grep-console
-![](images/plugin_GrepConsole.png)
