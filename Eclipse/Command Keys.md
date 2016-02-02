@@ -1,17 +1,19 @@
 # Common Command Keys / Shortcuts #
 
+NOTE: command keys marked with `*` is my personal uses, not Eclipse defaults.
+
 #### Navigation ####
 ```
 	f3                     : Open Declaration
 	*alt+f3                : Open Implementation
 	ctrl+o                 : Quick Outline
-	ctrl+shift+r (*ctrl+p) : Open Resource/File
+	*ctrl+p                : Open Resource/File [ctrl+shift+r]
 	ctrl+shift+t           : Open Java File
 	ctrl+t                 : Quick Java Type Hierarchy
 	f4                     : Open Java Type Hierarchy
 	ctrl+alt+h             : Open Call Hierarchy
 	ctrl+q                 : Last Edit Location
-	ctrl+f6 (*ctrl+tab)    : Next Editor
+	*ctrl+tab              : Next Editor [ctrl+f6]
 	*ctrl+shift+alt+r      : Run the tests of selected member
 ```
 
@@ -21,8 +23,8 @@
 	*alt+'                 : Content Assist (Template Proposals)
 	*alt+d alt+d           : Delete Lines
 	*alt+d alt+c           : Copy Lines
-	alt+down (*ctrl+down)  : Move Lines Down
-	alt+up (*ctrl+up)      : Move Lines Up
+	*ctrl+down             : Move Lines Down [alt+down]
+	*ctrl+up               : Move Lines Up [alt+up]
 	ctrl+backspace         : Delete Previous Word
+	ctrl+delete            : Delete Next Word
 ```
-
