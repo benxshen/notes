@@ -1,14 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="javaScript" deleted="false" description="function" enabled="true" name="fnn">function ${name}(${}) {
-	${cursor}
-}</template><template autoinsert="true" context="javaScript" deleted="false" description="function" enabled="true" id="org.eclipse.wst.jsdt.ui.templates.public_method" name="function">function ${name}(${}) {
-	${cursor}
-}</template><template autoinsert="false" context="javaScript" deleted="false" description="anonymous function" enabled="true" id="org.eclipse.wst.jsdt.ui.templates.anonymous_public_method" name="function">function (${}) {
-	${cursor}
-}</template><template autoinsert="true" context="javaScript" deleted="false" description="create an immediate invocation function expression (iife)" enabled="true" name="iife">(function() {&#13;
-	'use strict';&#13;
-&#13;
-	${cursor}&#13;
-})();</template><template autoinsert="true" context="javaScript" deleted="false" description="new ng controller" enabled="true" name="ngController">(function() {&#13;
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="javaScript" deleted="false" description="new ng controller" enabled="true" name="ngController">(function() {&#13;
     'use strict';&#13;
 &#13;
     angular&#13;
@@ -37,10 +27,10 @@
 &#13;
     /* @ngInject */&#13;
     function ${directive}() {&#13;
-        // Usage:&#13;
-        //&#13;
-        // Creates:&#13;
-        //&#13;
+    	/**&#13;
+     	 *  Usage:&#13;
+	 	 *  Example:&#13;
+	 	 */&#13;
         var ddo = {&#13;
 			restrict: 'EA',&#13;
             template${Url}: '${html_or_pathToTemplate}',&#13;
@@ -48,7 +38,7 @@
 			scope: {&#13;
             },&#13;
             bindToController: true,&#13;
-            controller: ${directive}DirController,&#13;
+            controller: ${directive}Controller,&#13;
             controllerAs: '${vm}',&#13;
             link: postLink&#13;
         };&#13;
@@ -59,10 +49,17 @@
     }&#13;
 &#13;
     /* @ngInject */&#13;
-    function ${directive}DirController(${dependencies}) {&#13;
+    function ${directive}Controller(${dependencies}) {&#13;
 		/* jshint validthis: true */&#13;
         var ${vm} = this;&#13;
 		${cursor}&#13;
+&#13;
+		activate();&#13;
+&#13;
+        ////////////////&#13;
+&#13;
+        function activate() {&#13;
+        }&#13;
     }&#13;
 })();</template><template autoinsert="true" context="javaScript" deleted="false" description="new ng factory" enabled="true" name="ngFactory">(function() {&#13;
     'use strict';&#13;
@@ -70,6 +67,11 @@
     angular&#13;
         .module('${module}')&#13;
         .factory('${factory}', ${factory});&#13;
+&#13;
+	/**&#13;
+     *  Usage:&#13;
+	 *  Example:&#13;
+	 */&#13;
 &#13;
     /* @ngInject */&#13;
     function ${factory}(${dependencies}) {&#13;
@@ -89,6 +91,11 @@
     angular&#13;
         .module('${module}')&#13;
         .filter('${filter}', ${filter});&#13;
+&#13;
+	/**&#13;
+     *  Usage:&#13;
+	 *  Example:&#13;
+	 */&#13;
 &#13;
 	/* @ngInject */&#13;
     function ${filter}(${dependencies}) {&#13;
@@ -112,12 +119,13 @@
 	'use strict';&#13;
 &#13;
 	angular.module('${module}')&#13;
-		.config(['$$stateProvider' ,'$$urlRouterProvider',function($$stateProvider, $$urlRouterProvider) {&#13;
-&#13;
+		.config(function($$stateProvider, $$urlRouterProvider) {&#13;
+			// http://angular-ui.github.io/ui-router/site/#/api/ui.router.state.$$stateProvider&#13;
 			$$stateProvider&#13;
 				.state('${stateName}', {&#13;
 					parent: '${parentStateName}',&#13;
 					url: '${mappingUrl}',&#13;
+					reloadOnSearch: true,&#13;
 					data: {&#13;
 						roles: ['${ROLE_USER}'],&#13;
 						pageTitle: '${pageTitle}'&#13;
@@ -130,28 +138,28 @@
 						}&#13;
 					},&#13;
 					resolve: {&#13;
-						${resolvedData}: ${resolvedData}&#13;
+						${resolvedData}: function ${resolvedData}(${dep}) {&#13;
+							// TODO: to be impl&#13;
+							return "";&#13;
+						}&#13;
 					}&#13;
 &#13;
 				})&#13;
 				;&#13;
-	}])&#13;
+	})&#13;
 	;&#13;
 	&#13;
-	/* @ngInject */&#13;
-	function ${resolvedData}(${dep}) {&#13;
-		return "";&#13;
-	}&#13;
 })();</template><template autoinsert="true" context="javaScript" deleted="false" description="new ng ui route" enabled="true" name="ngRoute-UI-singleView">(function() {&#13;
 	'use strict';&#13;
 &#13;
 	angular.module('${module}')&#13;
-		.config(['$$stateProvider' ,'$$urlRouterProvider',function($$stateProvider, $$urlRouterProvider) {&#13;
-&#13;
+		.config(function($$stateProvider, $$urlRouterProvider) {&#13;
+			// http://angular-ui.github.io/ui-router/site/#/api/ui.router.state.$$stateProvider&#13;
 			$$stateProvider&#13;
 				.state('${stateName}', {&#13;
 					parent: '${parentStateName}',&#13;
 					url: '${mappingUrl}',&#13;
+					reloadOnSearch: true,&#13;
 					data: {&#13;
 						roles: ['${ROLE_USER}'],&#13;
 						pageTitle: '${pageTitle}'&#13;
@@ -160,18 +168,17 @@
 					controller: '${Controller}',&#13;
 					controllerAs: '${vm}',&#13;
 					resolve: {&#13;
-						${resolvedData}: ${resolvedData}&#13;
+						${resolvedData}: function ${resolvedData}(${dep}) {&#13;
+							// TODO: to be impl&#13;
+							return "";&#13;
+						}&#13;
 					}&#13;
 &#13;
 				})&#13;
 				;&#13;
-	}])&#13;
+	})&#13;
 	;&#13;
-	&#13;
-	/* @ngInject */&#13;
-	function ${resolvedData}(${dep}) {&#13;
-		return "";&#13;
-	}&#13;
+&#13;
 })();</template><template autoinsert="true" context="javaScript" deleted="false" description="new ng run" enabled="true" name="ngRun">(function() {&#13;
 	'use strict';&#13;
 &#13;
@@ -187,14 +194,20 @@
         .module('${module}')&#13;
         .service('${Service}', ${Service});&#13;
 &#13;
+	/**&#13;
+     *  Usage:&#13;
+	 *  Example:&#13;
+	 */&#13;
 &#13;
     /* @ngInject */&#13;
     function ${Service}(${dependencies}) {&#13;
-        this.${func} = ${func};&#13;
+		/* jshint validthis: true */&#13;
+		var self = this;&#13;
+        self.${func} = ${func};&#13;
 &#13;
         ////////////////&#13;
 &#13;
         function ${func}() {&#13;
         }&#13;
     }&#13;
-})();</template><template autoinsert="true" context="javaScript" deleted="false" description="" enabled="true" name="ttt">${cursor} - Ben [${date}] ${d:date('yyyyMMdd')}</template></templates>
+})();</template></templates>
