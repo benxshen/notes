@@ -1,1 +1,53 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><folders xmlns="http://eclipse.musgit.com/grepconsole"><style background="800080" bold="true" border="false" id="daf908f5-0227-4f88-a708-fca8c7789977" italic="false" name="com.pollex" strikeout="false" underline="false"/><style bold="false" border="false" foreground="929292" id="539dd97b-36dc-4d5f-9fd2-14e94d9b015d" italic="false" name="Debug" strikeout="false" underline="false"/><style bold="false" border="false" foreground="ff0000" id="8720d322-7fd4-4bac-84cb-71a89591bbbb" italic="false" name="Error" strikeout="false" underline="false"/><style bold="false" border="false" foreground="80ffff" id="e7cc1366-ad8b-4bb1-80ed-f628b7d31955" italic="false" name="Info" strikeout="false" underline="false"/><style bold="false" border="false" foreground="ff8000" id="2d9ece6e-0325-4d39-8579-4456851f259c" italic="false" name="Warn" strikeout="false" underline="false"/><style background="a52a2a" bold="true" border="false" foreground="ffff00" id="79ade458-a1ae-498b-9d83-a6a9f469185f" italic="false" name="Fatal" strikeout="false" underline="false"/><style bold="false" border="true" borderColor="808000" id="8af280d1-b621-49ed-a82b-d08f23187e2b" italic="false" name="Hibernate Prefix" strikeout="false" underline="false"/><style bold="false" border="false" foreground="ff8040" id="1aca5455-718f-40c1-bf56-8d3b0a429635" italic="false" name="Hibernate Update" strikeout="false" underline="false"/><style background="ffffff" bold="true" border="true" borderColor="ff8000" foreground="ff8000" id="aff5842d-3797-4f8d-9f6a-0a577396a72d" italic="false" name="Warn title" strikeout="false" underline="false"/><style bold="false" border="false" foreground="808040" id="91cd8d7c-a4ba-4197-91e3-b360787907d6" italic="false" name="Hibernate Select" strikeout="false" underline="false"/><style background="ffff00" bold="true" border="true" borderColor="800000" foreground="800000" id="f3847ef3-c7f9-43db-b8a5-560bcf1d568c" italic="false" name="Fatal title" strikeout="false" underline="false"/><folder enabled="true" filter="true" id="e5143688-a22b-44cc-bff1-9b2d7d03c1d7" notifications="true" statistics="true"><folder enabled="true" id="75da4f67-40e8-45e0-8c75-8292c6f9e5db" name="Log Output"><item enabled="true" expression=".*(\Q[DEBUG]\E).*" id="733554cb-6759-46e4-96b4-05b0ae9686e8" name="Debug"><group style="539dd97b-36dc-4d5f-9fd2-14e94d9b015d"/><group/></item><item enabled="true" expression=".*com\.pollex.*" id="788bef69-c794-4d2b-a960-1b3f0990cc7f" name="com.pollex"><group style="daf908f5-0227-4f88-a708-fca8c7789977"/></item><item enabled="true" expression=".*(\Q[WARN]\E|\Q警告:\E|\Qlog4j:WARN\E).*" id="805195bb-ae5d-4b68-b2c8-11e4688de116" name="Warn"><group style="2d9ece6e-0325-4d39-8579-4456851f259c"/><group style="aff5842d-3797-4f8d-9f6a-0a577396a72d"/></item><item enabled="true" expression=".*(\Q[ERROR]\E).*" id="0f03e7f0-7082-462f-ae84-1883904b5301" name="Error"><group style="8720d322-7fd4-4bac-84cb-71a89591bbbb"/><group/></item><item enabled="true" expression=".*(\Q[FATAL]\E|\Q嚴重:\E).*" id="6da0cf2f-86fe-4054-9f74-522cb8137a72" name="Fatal"><group style="79ade458-a1ae-498b-9d83-a6a9f469185f"/><group style="f3847ef3-c7f9-43db-b8a5-560bcf1d568c"/></item><item enabled="true" expression=".*(\Q[INFO]\E|\Q資訊:\E).*" id="2063db97-7d48-4a9b-89ab-6f8e86b29629" name="Info"><group style="e7cc1366-ad8b-4bb1-80ed-f628b7d31955"/><group/></item></folder><folder enabled="true" filter="true" id="73e5d159-d623-43ee-b06e-74d9b9016b9a" name="Hibernate SQL" notifications="true" statistics="true"><item enabled="true" expression="^(Hibernate:) select.*" id="02c41fbe-4a36-4ea5-929c-382da01aa884" name="Hibernate Select"><group style="91cd8d7c-a4ba-4197-91e3-b360787907d6"/><group style="8af280d1-b621-49ed-a82b-d08f23187e2b"/></item><item enabled="true" expression="^(Hibernate:) update.*" id="5ebae036-90b9-417d-a5d2-396aa382691b" name="Hibernate Update"><group style="1aca5455-718f-40c1-bf56-8d3b0a429635"/><group style="8af280d1-b621-49ed-a82b-d08f23187e2b"/></item></folder></folder></folders>
+<?xml version="1.0" encoding="UTF-8"?>
+<folders xmlns="http://eclipse.musgit.com/grepconsole">
+    <style background="800080" bold="true" border="false" id="daf908f5-0227-4f88-a708-fca8c7789977" italic="false" name="com.pollex" strikeout="false" underline="false" />
+    <style bold="false" border="false" foreground="929292" id="539dd97b-36dc-4d5f-9fd2-14e94d9b015d" italic="false" name="Debug" strikeout="false" underline="false" />
+    <style bold="false" border="false" foreground="ff0000" id="8720d322-7fd4-4bac-84cb-71a89591bbbb" italic="false" name="Error" strikeout="false" underline="false" />
+    <style bold="false" border="false" foreground="80ffff" id="e7cc1366-ad8b-4bb1-80ed-f628b7d31955" italic="false" name="Info" strikeout="false" underline="false" />
+    <style bold="false" border="false" borderColor="808000" id="8af280d1-b621-49ed-a82b-d08f23187e2b" italic="false" name="Hibernate Prefix" strikeout="false" underline="false" />
+    <style bold="false" border="false" foreground="ff8040" id="1aca5455-718f-40c1-bf56-8d3b0a429635" italic="false" name="Hibernate Update" strikeout="false" underline="false" />
+    <style bold="false" border="false" foreground="ff8000" id="2d9ece6e-0325-4d39-8579-4456851f259c" italic="false" name="Warn" strikeout="false" underline="false" />
+    <style background="a52a2a" bold="true" border="false" foreground="ffff00" id="79ade458-a1ae-498b-9d83-a6a9f469185f" italic="false" name="Fatal" strikeout="false" underline="false" />
+    <style bold="false" border="false" foreground="808040" id="91cd8d7c-a4ba-4197-91e3-b360787907d6" italic="false" name="Hibernate Select" strikeout="false" underline="false" />
+    <style background="ffffff" bold="true" border="true" borderColor="ff8000" foreground="ff8000" id="aff5842d-3797-4f8d-9f6a-0a577396a72d" italic="false" name="Warn title" strikeout="false" underline="false" />
+    <style background="ffff00" bold="true" border="true" borderColor="800000" foreground="800000" id="f3847ef3-c7f9-43db-b8a5-560bcf1d568c" italic="false" name="Fatal title" strikeout="false" underline="false" />
+    <folder enabled="true" filter="true" id="0669acce-5b11-4a06-90ed-a646062c9a9f" notifications="true" statistics="true">
+        <folder enabled="true" filter="true" id="73e5d159-d623-43ee-b06e-74d9b9016b9a" name="Hibernate SQL" notifications="true" statistics="true">
+            <item enabled="true" expression="^(Hibernate:|.*SqlStatementLogger-logStatement]) (select.*)" id="02c41fbe-4a36-4ea5-929c-382da01aa884" name="Hibernate Select">
+                <group style="91cd8d7c-a4ba-4197-91e3-b360787907d6" />
+                <group style="8af280d1-b621-49ed-a82b-d08f23187e2b" />
+                <group />
+            </item>
+            <item enabled="true" expression="^(Hibernate:|.*SqlStatementLogger-logStatement]) (update.*)" id="5ebae036-90b9-417d-a5d2-396aa382691b" name="Hibernate Update">
+                <group style="1aca5455-718f-40c1-bf56-8d3b0a429635" />
+                <group style="8af280d1-b621-49ed-a82b-d08f23187e2b" />
+                <group />
+            </item>
+        </folder>
+        <folder enabled="true" id="75da4f67-40e8-45e0-8c75-8292c6f9e5db" name="Log Output">
+            <item enabled="true" expression=".*(\Q[DEBUG]\E).*" id="733554cb-6759-46e4-96b4-05b0ae9686e8" name="Debug">
+                <group style="539dd97b-36dc-4d5f-9fd2-14e94d9b015d" />
+                <group />
+            </item>
+            <item enabled="true" expression=".*com\.pollex.*" id="788bef69-c794-4d2b-a960-1b3f0990cc7f" name="com.pollex">
+                <group style="daf908f5-0227-4f88-a708-fca8c7789977" />
+            </item>
+            <item enabled="true" expression=".*(\Q[WARN]\E|\Q警告:\E|\Qlog4j:WARN\E).*" id="805195bb-ae5d-4b68-b2c8-11e4688de116" name="Warn">
+                <group style="2d9ece6e-0325-4d39-8579-4456851f259c" />
+                <group style="aff5842d-3797-4f8d-9f6a-0a577396a72d" />
+            </item>
+            <item enabled="true" expression=".*(\Q[ERROR]\E).*" id="0f03e7f0-7082-462f-ae84-1883904b5301" name="Error">
+                <group style="8720d322-7fd4-4bac-84cb-71a89591bbbb" />
+                <group />
+            </item>
+            <item enabled="true" expression=".*(\Q[FATAL]\E|\Q嚴重:\E).*" id="6da0cf2f-86fe-4054-9f74-522cb8137a72" name="Fatal">
+                <group style="79ade458-a1ae-498b-9d83-a6a9f469185f" />
+                <group style="f3847ef3-c7f9-43db-b8a5-560bcf1d568c" />
+            </item>
+            <item enabled="true" expression=".*(\Q[INFO]\E|\Q資訊:\E).*" id="2063db97-7d48-4a9b-89ab-6f8e86b29629" name="Info">
+                <group style="e7cc1366-ad8b-4bb1-80ed-f628b7d31955" />
+                <group />
+            </item>
+        </folder>
+    </folder>
+</folders>
