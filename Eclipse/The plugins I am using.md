@@ -1,4 +1,14 @@
-# The plugins I am using #
+**Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
+
+- [InstaSearch](#)
+- [Glance](#)
+- [Path Tools](#)
+- [Grep Console](#)
+- [Command Key Binding Reference](#)
+- [AngularJS Eclipse](#)
+- [Eclipse Color Theme](#)
+- [Jeeeyuls UI Theme](#)
+- [Other Plugins](#)
 
 #### InstaSearch
 InstaSearch will build indexes for your workspace projects, so you can quick search/fuzzy find to files. http://marketplace.eclipse.org/content/instasearch
