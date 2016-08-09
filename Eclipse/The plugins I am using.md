@@ -1,14 +1,14 @@
 **Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
 
-- [InstaSearch](#)
-- [Glance](#)
-- [Path Tools](#)
-- [Grep Console](#)
-- [Command Key Binding Reference](#)
-- [AngularJS Eclipse](#)
-- [Eclipse Color Theme](#)
-- [Jeeeyuls UI Theme](#)
-- [Other Plugins](#)
+- [InstaSearch](#instasearch)
+- [Glance](#glance)
+- [Path Tools](#path-tools)
+- [Grep Console](#grep-console)
+- [Command Key Binding Reference](#command-key-binding-reference)
+- [AngularJS Eclipse](#angularjs-eclipse)
+- [Eclipse Color Theme](#eclipse-color-theme)
+- [Jeeeyuls UI Theme](#jeeeyuls-ui-theme)
+- [Other Plugins](#other-plugins)
 
 #### InstaSearch
 InstaSearch will build indexes for your workspace projects, so you can quick search/fuzzy find to files. http://marketplace.eclipse.org/content/instasearch
