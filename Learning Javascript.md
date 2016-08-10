@@ -5,7 +5,7 @@
 ### Beginner:
 * [JavaScript Tutorial - W3Schools](http://www.w3schools.com/js/default.asp)
 * [tutorialspoint - Javascript](http://www.tutorialspoint.com/javascript/)
-* [** 語言技術：JavaScript Essence](http://openhome.cc/Gossip/JavaScript/)
+* [JavaScript 語言核心](http://openhome.cc/Gossip/CodeData/EssentialJavaScript/index.html)
 * [JavaScript Style Guide](https://github.com/jigsawye/javascript)
 
 ### Angular:
