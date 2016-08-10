@@ -6,7 +6,6 @@
 * [JavaScript Tutorial - W3Schools](http://www.w3schools.com/js/default.asp)
 * [tutorialspoint - Javascript](http://www.tutorialspoint.com/javascript/)
 * [JavaScript 語言核心](http://openhome.cc/Gossip/CodeData/EssentialJavaScript/index.html)
-* [JavaScript Style Guide](https://github.com/jigsawye/javascript)
 
 ### Angular:
 * [前端工程的極致精品： AngularJS 開發框架介紹](http://blog.miniasp.com/post/2013/04/23/Front-end-Engineering-Fineart-An-Introduction-to-AngularJS.aspx)
@@ -26,4 +25,5 @@
 ### Reference documents:
 * [Dev Docs](http://devdocs.io/)
 * [jQuery Quick API Reference Sheet](https://oscarotero.com/jquery/)
+* Javascript coding style guides: https://groups.diigo.com/group/pollex/content/tag/coding-style%20javascript
 * More resources: https://groups.diigo.com/group/pollex/content/tag/javascript
