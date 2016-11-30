@@ -1,3 +1,5 @@
+Getting Started:
+* https://dzone.com/refcardz/getting-started-eclipse
 
 ### [Eclipse IDE](EclipseIDE.md)
 
