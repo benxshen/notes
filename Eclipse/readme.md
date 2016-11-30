@@ -1,7 +1,6 @@
 Getting Started:
+* [Eclipse IDE Screenshots and Quick Overview](EclipseIDE.md) 
 * https://dzone.com/refcardz/getting-started-eclipse
-
-### [Eclipse IDE](EclipseIDE.md)
 
 ### [Eclipse Preference Settings](PreferenceSetting.md)
 
