@@ -1,6 +1,7 @@
 
-Installations
+#Installations
 
+##Vscode and "Settings Sync"
 1. Get latest version from https://code.visualstudio.com/
 
 2. Install the plugin "Settings Sync" from https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync
@@ -10,7 +11,7 @@ seleting Command __"Sync : Advance Options > Share Settings with Public GIST"__ 
 `92a1a1154369f7b01e1fc1b7d1f6e9a1`)
 
 
-Eable eslint
+##Eable eslint
 
 1. npm intall eslint -g
 
@@ -51,7 +52,7 @@ command "Create '.eslintrc.json' file". (The below is my eslint configs)
 }
 ```
 
-Enable EditorConfig
+##Enable EditorConfig
 
 1. Install the vscode plugin with command `ext install EditorConfig` https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig (if you downloaded my 
 vscode settings by above step, you have it already)
