@@ -7,9 +7,13 @@
 2. Install the plugin "Settings Sync" from https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync
 ![](images/install_ext.png)
 
-3. Follow the steps of "Settings Sync" to create your own github account token and Gist. (Once done, you can use my setting by
-seleting Command __"Sync : Advance Options > Share Settings with Public GIST"__ (click `F1` and input the comment `Sync`), and input my GIST
-`92a1a1154369f7b01e1fc1b7d1f6e9a1`)
+3. Follow the steps of "Settings Sync" to create your own github account token and Gist.
+    1. seleting Command __"Sync : Download Settings"__  and paste your own token.
+    2. then paste my GIST `92a1a1154369f7b01e1fc1b7d1f6e9a1` if you would like to use my settings. (Keep empty and enter, it will create a new GIST automatically.)
+    3. (if you download my GIST settings) Once all settings downloaded, restart vscode.
+    4. seleting Command __"Sync : Reset Extension Settings"__ to clean up github token and Gist. And then repeat 3.1 and 3.2 again (in 3.2, leave the GIST blank to create your new gist.)
+    5. selecting Command __"Sync : Update / Upload Settings"__ to upload all the latest settings to your gist.
+
 ![](images/settings_sync.png)
 
 ##Eable eslint
