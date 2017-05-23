@@ -67,7 +67,7 @@ public static String testableHtml(
 ```
 
 (Refactor - 1)
-```
+```java
 public static String renderPageWithSetupsAndTeardowns(
     PageData pageData, boolean isSuite
 ) throws Exception {
@@ -85,7 +85,7 @@ public static String renderPageWithSetupsAndTeardowns(
 ```
 
 (Refactor - 2)
-```
+```java
 public static String renderPageWithSetupsAndTeardowns(
     PageData pageData, boolean isSuite) throws Exception {
     if (isTestPage(pageData))
